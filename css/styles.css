@@ -1,0 +1,113 @@
+/*************************/
+/******** header *********/
+/*************************/
+header{
+    height: auto;
+}
+header section.hero{
+    height: calc(auto - 60px)
+}
+/*************************/
+/********section ********/
+/*************************/
+section.feature .container .row .features-img{
+    margin-bottom: 19%;
+}
+/*************************/
+/********services ********/
+/*************************/
+section.services .container .row .inner{
+    border: 1px solid;
+    border-color: rgb(224, 211, 211);
+    background-color: white;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 2px;
+}
+section.services .container .row .inner:hover img{
+    background-color:  #a60dcf !important;
+}
+section.services .container .row .inner:hover{
+    border: 1px solid blue;
+    
+}
+/*************************/
+/******** pages *********/
+/*************************/
+.pages{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: -webkit-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%);
+
+}
+.pages .row .box{
+    padding: auto;
+    height: 450px;
+    width: 4o0px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+.pages .row .box .card_bottom ul li{
+    list-style: none;
+    padding: 0px auto;
+    margin: 25px auto;
+    font-size: medium;
+    color: white;
+}
+/*************************/
+/********.customer *******/
+/*************************/
+.customer .row .col-12{
+    border: 1px solid rgb(228, 216, 216);
+    padding: 40px 30px;
+    height: 350px;
+    width: 350px;
+}
+/*************************/
+/*******.contact *********/
+/*************************/
+.contact{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: -webkit-linear-gradient(0deg, #6c19f6 0%, #f9218d 100%);
+}
+/*************************/
+/******* footer **********/
+/*************************/
+.footer .row .col-12 .link ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 2.1;
+    text-transform: capitalize;
+    color: gray;
+
+}
+.footer .row .col-12 .support ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 2.1;
+    text-transform: capitalize;
+    color: gray;
+    
+}
+.footer .row .col-12 .newsletter input{
+    height: 35px;
+    width: 68%;
+    color: gray;
+    padding: 10px;
+    border: 2px solid gray;
+    color: gray;
+    border-radius: 20px;
+}
+.footer .row .col-12 .newsletter button{
+    height: 34px;
+    width: 60px;
+    background-color: rgb(95, 0, 139);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px; 
+}
+
